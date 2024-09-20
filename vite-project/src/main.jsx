@@ -39,6 +39,7 @@ import User from './components/User/User.jsx'
    createRoutesFromElements(
 
      <Route path='/' element ={<Layout/>}>
+      
       <Route path ='' element={<Home/>}/>
        <Route path ='about' element={<About/>}/>
       <Route path ='contact' element={<Contact/>}/>
@@ -48,20 +49,13 @@ import User from './components/User/User.jsx'
        path ='github'
         element={<GitHub/>}/>
         
- 
-     
-
      </Route>
+      
+      
   )
   )
 
-
-
-
-
-
-
-
+  
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
